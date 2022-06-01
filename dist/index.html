@@ -67,7 +67,7 @@
       }
 
       function deleteCookies(cookieconsent_name) {
-        var keep = [cookieconsent_name, "DYNSRV"];
+        var keep = [cookieconsent_name];
 
         document.cookie.split(";").forEach(function (c) {
           c = c.split("=")[0].trim();
