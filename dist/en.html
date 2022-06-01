@@ -30,6 +30,8 @@
           content: {
             message:
               "We use cookies to improve our services. The necessary cookies are necessary for the functioning of the website and are automatically enabled. Other cookies allow us to more accurately analyze traffic and customize user settings. Do you agree with the use of other cookies?",
+            deny: "Deny",
+            allow: "Allow",
           },
           onInitialise: function (status) {
             if (status == cookieconsent.status.allow) setCookies();
